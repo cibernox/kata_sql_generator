@@ -1,4 +1,5 @@
-require 'sql_helpers'
+require File.expand_path('../', __FILE__) + '/sql_helpers'
+require File.expand_path('../', __FILE__) + '/with_data'
 module Sql
   class Statement
 

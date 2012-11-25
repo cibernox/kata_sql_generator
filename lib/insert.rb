@@ -1,5 +1,3 @@
-require 'with_data'
-
 module Sql
   class Insert < Statement
     include WithData

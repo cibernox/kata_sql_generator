@@ -1,5 +1,4 @@
 module Sql
-
   class Update < Statement
     include WithData
     alias_method :set, :set_data
